@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.titulo {
+    margin: 0em 1.5em;
+    font-family: var(--fonte-secundaria);
+}
+
+hr{
+    border-top: 1px solid red;
+    width: 70%;
+    margin: 1em auto;
+}
+
+

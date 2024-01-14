@@ -1,0 +1,39 @@
+{
+  "lista": [
+    {
+      "descricao": "Fruta",
+      "qtd": "10",
+      "und": "kg",
+      "check": false,
+      "id": 3
+    },
+    {
+      "descricao": "Macarrão Teste",
+      "qtd": "10",
+      "und": "kg",
+      "check": true,
+      "id": 4
+    },
+    {
+      "descricao": "Batata",
+      "qtd": "2",
+      "und": "kg",
+      "check": true,
+      "id": 5
+    },
+    {
+      "descricao": "Batutinha",
+      "qtd": "11",
+      "und": "22",
+      "check": true,
+      "id": 6
+    },
+    {
+      "descricao": "Beterraba",
+      "qtd": "12",
+      "und": "5",
+      "check": true,
+      "id": 7
+    }
+  ]
+}

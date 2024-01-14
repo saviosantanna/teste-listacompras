@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container{
+    background-color: var(--cor-background);
+    width: fit-content;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 1em;
+}

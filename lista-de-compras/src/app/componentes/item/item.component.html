@@ -1,0 +1,16 @@
+<div class="container" >
+    <div class="item">
+        <input class="checkbox" type="checkbox" name="check" id="" (click)="clickCheck()" [checked]="item.check">
+        <p class="descricao texto" ngClass="{{item.check?'riscar':'riscado'}}">{{ item.descricao }} - {{ item.qtd }} {{ item.und }}</p>
+    </div>
+    <div class="botoes">
+        <button class="botao botao-editar" *ngIf="!item.check" (click)="editarItem(item) ">
+            <img src="../../../assets/imgs/editar.svg" alt="Icone editar">
+        </button>
+        <button class="botao botao-excluir" (click)="excluirItem()">
+            <img src="../../../assets/imgs/lixeira.svg" alt="Icone lixieira">
+        </button>
+    </div>
+</div>
+
+

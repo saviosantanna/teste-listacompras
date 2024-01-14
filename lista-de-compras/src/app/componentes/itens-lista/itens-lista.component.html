@@ -1,0 +1,28 @@
+<app-novo-item (evento)="verificar()" #novaEdicao></app-novo-item>
+<!-- *ngIf="lista" -->
+<section class="item-lista" *ngIf="listados">
+    <hr>
+    <h2 class="titulo">Itens Lista</h2>
+    <div *ngFor="let lista of listaItens">
+      <app-item
+      *ngIf="!lista.check"
+      [item]="lista"
+      (excluir)="atualiza()"
+      (edicao)="novaEdicao.editar(lista)"
+      (verificar)="verificar()"
+      ></app-item>
+    </div>
+</section>
+<!-- *ngIf="comprado" -->
+<section class="itens-comprados" *ngIf="comprados">
+  <hr>
+  <h2 class="titulo" >Itens Comprados</h2>
+  <div *ngFor="let lista of listaItens">
+    <app-item
+    *ngIf="lista.check"
+    [item]="lista"
+    (excluir)="atualiza()"
+    (verificar)="verificar()"
+    ></app-item>
+  </div>
+</section>

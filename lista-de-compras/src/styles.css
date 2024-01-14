@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Roboto:wght@400;500;700&display=swap');
+
+:root{
+    --cor-background: rgb(153, 153, 153, 0.5);
+    --cor-branca : rgba(255, 255, 255, 0.7);
+    --cor-cinza : rgb(90, 90, 90);
+    --cor-preta: #000000;
+    --fonte-principal: 'Just Me Again Down Here', sans-serif;
+    --fonte-secundaria: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: url("assets/imgs/background.svg");
+    background-size: cover;
+}

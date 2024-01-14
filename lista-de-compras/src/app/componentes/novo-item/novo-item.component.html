@@ -1,0 +1,19 @@
+<section class="novo-item">
+  <form [formGroup]="formulario">
+    <div class="inputs i-item">
+        <label for="">Item</label>
+        <input class="cx-texto" type="text" formControlName="descricao" id="" placeholder="Macarrão">
+    </div>
+    <div class="inputs ">
+        <label for="">Qtd</label>
+        <input class="cx-texto i-qtd" type="text" formControlName="qtd" id="" placeholder="3">
+    </div>
+    <div class="inputs i-un">
+        <label class="label" for="">Un</label>
+        <input class="cx-texto" type="text" formControlName="und" id="" placeholder="pct">
+    </div>
+    <button class="botao" (click)="criarItem()" *ngIf="!edicao">Adicionar</button>
+    <button class="btn-editar" (click)="editarItem()" *ngIf="edicao">Editar</button>
+    <button class="btn-cancelar" (click)="cancelar()" *ngIf="edicao">Cancelar</button>
+  </form>
+</section>

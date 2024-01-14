@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+.titulo{
+    font-family: var(--fonte-principal);
+    line-height: 1em;
+    font-size: 4.0em;
+    font-weight: 700;
+}
+
