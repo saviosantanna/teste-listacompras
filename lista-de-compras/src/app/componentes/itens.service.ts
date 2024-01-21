@@ -8,8 +8,8 @@ import { Item } from './item';
 })
 export class ItensService {
 
-  private readonly API = 'http://localhost:3000/lista'
-  //private readonly API = 'https://teste-bd-json-serve.vercel.app/lista'
+  //private readonly API = 'http://localhost:3000/lista'
+  private readonly API = 'https://teste-bd-json-serve.vercel.app/lista'
   constructor(private http: HttpClient) { }
 
   listar(): Observable<Item[]> {
